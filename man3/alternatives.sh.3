@@ -1,0 +1,25 @@
+.TH alternatives.sh "bash library" "21-01-2022"  "alternatives.sh man page"
+ 
+.SH NAME
+math.sh \- alternative utils library written in bash5.17
+
+.SH SYNOPSIS
+source "/usr/local/lib/bash5.17/alternatives.sh"
+
+.SH DESCRIPTION
+In this library, some mathematical constants are given as variables, and also operations used in mathematics, controllers..
+
+.SH FUNCTIONS
+alternatives:filename "param1" "param2"..   - this function is alternative of filename, usage: enter parametres as file/directory path for example: 
+    > alternatives:filename /tmp/test/test.sh
+    < test.sh
+
+alternatives:install [OPTION] [OPTION PARAMETER] "copy path" "paste path"   - there are 1 optional option and its parameter called as --mod and the chmod numeratic system like "chmod '751'" is a parameter of this option usage of the function is you need to give the file of copying and the path of will be replacing.
+
+alternatives:mktemp [OPTION]    - there are 1 optional argument, this argument is "--directory" that means create random directory in /tmp if you use directl then it will be create random raw file in /tmp.  
+
+.SH BUGS
+No known bugs.
+
+.SH AUTHOR
+lazypwny751 - https://github.com/lazypwny751
