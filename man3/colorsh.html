@@ -21,15 +21,74 @@ source &quot;/usr/local/lib/bash5.17/colorsh.sh&quot;
 <A NAME="lbAD">&nbsp;</A>
 <H2>DESCRIPTION</H2>
 
-<BR>&nbsp;&nbsp;&nbsp;&nbsp;
+It is ready for use with a lot of color variables and random color functions with the color billet that will color your script.
+<P>
 <A NAME="lbAE">&nbsp;</A>
 <H2>VARIABLES</H2>
 
-<BR>&nbsp;&nbsp;&nbsp;&nbsp;reset&nbsp;&nbsp;&nbsp;-&nbsp;return&nbsp;to&nbsp;default
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;reset&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;return&nbsp;to&nbsp;default
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;black&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;black
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;red&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;red
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;green&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;green
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;yellow&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;yellow
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;blue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;blue
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;purple&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;purple
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;cyan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;cyan
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;white&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;white
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;Bblack&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;bold&nbsp;black
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;Bred&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;bold&nbsp;red
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;Bgreen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;bold&nbsp;green
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;Byellow&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;bold&nbsp;yellow
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;Bblue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;bold&nbsp;blue
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;Bpurple&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;bold&nbsp;purple
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;Bcyan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;bold&nbsp;cyan
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;Bwhite&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;bold&nbsp;white
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;Ublack&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;ultra&nbsp;black
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;Ured&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;ultra&nbsp;red
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;Ugreen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;ultra&nbsp;green
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;Uyellow&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;ultra&nbsp;yellow
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;Ublue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;ultra&nbsp;blue
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;Upurple&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;ultra&nbsp;purple
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;Ucyan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;ultra&nbsp;cyan
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;Uwhite&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;ultra&nbsp;what
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;BGblack&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;black&nbsp;background
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;BGred&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;red&nbsp;background
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;BGgreen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;green&nbsp;background
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;BGyellow&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;yellow&nbsp;background
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;BGblue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;blue&nbsp;background
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;BGpurple&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;purple&nbsp;background
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;BGcyan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;cyan&nbsp;background
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;BGwhite&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;white&nbsp;background
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;Iblack&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;intense&nbsp;black
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;Ired&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;intense&nbsp;read
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;Igreen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;intense&nbsp;green
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;Iyellow&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;intense&nbsp;yellow
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;Iblue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;intense&nbsp;blue
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;Ipurple&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;intense&nbsp;purple
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;Icyan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;intense&nbsp;cyan
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;Iwhite&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;intense&nbsp;white
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;BIblack&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;bold&nbsp;intense&nbsp;black
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;BIred&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;bold&nbsp;intense&nbsp;red
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;BIgreen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;bold&nbsp;intense&nbsp;green
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;BIyellow&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;bold&nbsp;intense&nbsp;yellow
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;BIblue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;bold&nbsp;intense&nbsp;blue
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;BIpurple&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;bold&nbsp;intense&nbsp;purple
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;BIcyan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;bold&nbsp;intense&nbsp;cyan
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;BIwhite&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;bold&nbsp;intense&nbsp;white
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;BGIblack&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;background&nbsp;intense&nbsp;black
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;BGIred&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;background&nbsp;intense&nbsp;red
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;BGIgreen&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;background&nbsp;intense&nbsp;green
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;BGIyellow&nbsp;&nbsp;&nbsp;-&nbsp;background&nbsp;intense&nbsp;yellow
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;BGIblue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;background&nbsp;intense&nbsp;blue
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;BGIpurple&nbsp;&nbsp;&nbsp;-&nbsp;background&nbsp;intense&nbsp;purple
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;BGIcyan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;background&nbsp;intense&nbsp;cyan
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;BGIwhite&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;background&nbsp;intense&nbsp;white
 <P>
 <A NAME="lbAF">&nbsp;</A>
 <H2>FUNCTIONS</H2>
 
+colorsh:random [OPTION]     - there are one argument called 'cool' and none argument.
+colorsh:rainbow [PARAMETER] - just type what do you want to print.
 <P>
 <A NAME="lbAG">&nbsp;</A>
 <H2>BUGS</H2>
@@ -56,6 +115,6 @@ lazypwny751 - <A HREF="https://github.com/lazypwny751">https://github.com/lazypw
 This document was created by
 <A HREF="/cgi-bin/man/man2html">man2html</A>,
 using the manual pages.<BR>
-Time: 00:35:34 GMT, January 29, 2022
+Time: 00:01:29 GMT, January 30, 2022
 </BODY>
 </HTML>

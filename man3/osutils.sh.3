@@ -1,0 +1,21 @@
+.TH osutils.sh "bash library" "21-01-2022"  "osutils.sh man page"
+ 
+.SH NAME
+osutils.sh \- operating systems utils library written in bash5.17
+
+.SH SYNOPSIS
+source "/usr/local/lib/bash5.17/osutils.sh"
+
+.SH DESCRIPTION
+useful functions used in operating systems.
+
+.SH FUNCTIONS
+osutil:check [OPTION]   - there are 4 flags: '--root, --silent' is check if the user root or else, '--file' is check if that files are exist recruisevly, '--trigger' is check if that commands are exist or else, '--directory' is check if that directories exist or not.
+osutil:define [OPTION]  - there are 2 flag: '--base, --silent translate the output to variable called as "sysbase"' print the base system for example debian or arch, '--is-arch ARCHITECTURE' this is check the operating system architecture.
+
+
+.SH BUGS
+No known bugs.
+
+.SH AUTHOR
+lazypwny751 - https://github.com/lazypwny751
